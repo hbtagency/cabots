@@ -3373,21 +3373,32 @@ and open the template in the editor.
     display: block;
     background: url("../../../img/my-list.png") no-repeat center 8px; }
 
-@media (max-width: 380px) {
+@media (max-width: 319px) {
   .mobile-nav .cart-menus {
     width: 100px; } }
-@media (min-width: 768px) {
+@media (min-width: 320px) and (max-width: 379px) {
+  .mobile-nav .cart-menus {
+    width: 100px; } }
+@media (min-width: 380px) and (max-width: 519px) {
+  .mobile-nav .cart-menus {
+    width: 100px; } }
+@media (min-width: 520px) and (max-width: 767px) {
+  .mobile-nav .cart-menus {
+    width: 100px; } }
+@media (min-width: 768px) and (max-width: 991px) {
   .nav-main {
     padding-right: 750px; }
     .nav-main-inline-blocks {
       margin-right: -5px; } }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .nav-main {
     padding-right: 970px; }
     .nav-main-inline-blocks {
       margin-right: -5px; } }
 @media (min-width: 1200px) {
   .nav-main {
-    padding-right: 1170px; } }
+    padding-right: 1170px; }
+    .nav-main-inline-blocks {
+      margin-right: -5px; } }
 
 /*# sourceMappingURL=_DG.min.css.map */

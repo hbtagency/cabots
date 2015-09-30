@@ -166,24 +166,43 @@ and open the template in the editor.
         }
     }
 
-@media (max-width: 380px) {
+@media (max-width: $screen-xxxxs-max) {
     .mobile-nav{
         .cart-menus{
             width:100px;
         }                                                       
     }                                                   
 }
-
-@media (min-width: $small-screen) {
+@media (min-width:$screen-xxxs-min) and (max-width:$screen-xxxs-max){
+    .mobile-nav{
+        .cart-menus{
+            width:100px;
+        }                                                       
+    }  
+}
+@media (min-width:$screen-xxs-min) and (max-width:$screen-xxs-max){
+    .mobile-nav{
+        .cart-menus{
+            width:100px;
+        }                                                       
+    } 
+}
+@media (min-width:$screen-xs-min) and (max-width:$screen-xs-max){
+    .mobile-nav{
+        .cart-menus{
+            width:100px;
+        }                                                       
+    }
+}
+@media (min-width:$screen-sm-min) and (max-width:$screen-sm-max){
     .nav-main {
         padding-right: 750px;
         &-inline-blocks{
             margin-right: -5px;
-
         }
     }
 }
-@media (min-width: $medium-screen) {
+@media (min-width:$screen-md-min) and (max-width:$screen-md-max){
     .nav-main {
         padding-right: 970px;
         &-inline-blocks{
@@ -192,11 +211,11 @@ and open the template in the editor.
         }
     }
 }
-@media (min-width: $large-screen) {
+@media (min-width:$screen-lg-min){
     .nav-main {
         padding-right: 1170px;
         &-inline-blocks{
-
+            margin-right: -5px;
         }
     }
 }
