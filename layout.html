@@ -30,18 +30,10 @@
           </div>
           <!-- End of top nav -->
           <!-- Begining of main nav -->
-          <div class="nav-main transparent-bg-darker absolute-position full-width">
-                  <div class="hidden-xs hidden-sm fixed-height yellow nav-main-inline-blocks nav-placeholder"></div>
-                  <div class="container hidden-sm hidden-xs nav-main-inline-blocks">
+          <div class="nav-main transparent-bg-darker absolute-position full-width hidden-xs hidden-sm">
+                  <div class="fixed-height yellow nav-main-inline-blocks nav-placeholder"></div>
+                  <div class="container nav-main-inline-blocks">
                     <div class="main-nav-row clearfix">
-                      <div class="navbar-header visible-sm">
-                        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                        </button>
-                      </div>
                       <div class="fixed-height logo yellow">
                            <a href="../" class="navbar-brand">
                                <img class="img-responsive" src='img/logo.png' alt="Cabots"/>
@@ -84,21 +76,56 @@
                                 <span class="text-row">MY LIST</span>
                             </span>    
                         </a>
-                    </div>    
+                    </div>
+                    <!--
+                    <div class="navbar-header visible-sm visible-md">
+                        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    -->
                     </div>
                   </div>
-                  <div class="hidden-xs hidden-sm fixed-height yellow nav-main-inline-blocks nav-placeholder nav-placeholder-right">
-                      <!--
-                      <div id="my-list-menu" class="my-list-menu text-left absolute-position full-width">
-                            <h2>Your list is empty.</h2>
-                            <h2>Add products to your list <a href="#" class="text-yellow hover-white">here</a></h2>
-                      </div>
-                      -->
+                  <div class="fixed-height yellow nav-main-inline-blocks nav-placeholder nav-placeholder-right">
+                      
                   </div>
+                  
           </div>
           <!-- End of main nav -->
           
-
+          <!-- Begin of pad and mobile menu -->
+          <div class="full-width mobile-nav yellow visible-xs visible-sm clearfix">
+                      <div class="fixed-height logo yellow clearfix">
+                           <a href="../" class="navbar-brand">
+                               <img class="img-responsive" src='img/logo.png' alt="Cabots"/>
+                           </a> 
+                      </div>
+                      <div class="fixed-height  cart-menus yellow clearfix">
+                        <a href="#" class="hidden-xs nav-cart-button text-center" >
+                            <span class="clearfix nav-shopping-cart">
+                                <span class="text-row">$0.0</span>
+                            </span>
+                        </a>
+                        <a href="#" id="nav-mylist" class="hidden-xs nav-menu-button text-center clearfix" >
+                            <span class="clearfix nav-my-list">
+                                <span class="text-row">MY LIST</span>
+                            </span>    
+                        </a>
+                        <div class="fixed-height clearfix mobile-menu-button">
+                            <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" id="nav-button">
+                                  <span class="sr-only">Toggle navigation</span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                            </button> 
+                        </div>
+                      </div>
+              
+          </div>
+          <!-- End of pad and mobile menu -->
           
       </header>
 <div class="container" id="pagewrapper">

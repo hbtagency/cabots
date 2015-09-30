@@ -30,6 +30,45 @@ and open the template in the editor.
         }
     }
 }
+
+.mobile-nav{
+    width:100%;
+    .logo{
+        a{
+           width:100%;
+        }
+        padding-top:10px;
+        width:160px;
+        float:left;
+    }
+    .cart-menus{
+        width:200px;
+        float:right;
+        margin-top:-10px;
+        a{
+            display:inline-block;
+            width:60px;
+            padding-top:10px;
+        }
+    }
+    .mobile-menu-button{
+        width:70px;
+        background-color:#000;
+        display:inline-block;
+        float:right;
+
+        .navbar-toggle {
+            display:block;
+            .icon-bar{
+                background-color:$yellow;
+                width:18px;
+                border-radius:1px;
+                height:3px;
+            }
+        }
+    }
+}
+
 .nav-main{
     font-family: $font-FKG-DC, "arial";
     padding: 0;
@@ -99,7 +138,10 @@ and open the template in the editor.
     .nav-placeholder-right{
         width:63%;
     }
-    .fixed-height{
+}
+
+.fixed-height{
+        font-family: $font-FKG-DC, "arial";
         display:inline-block;
         height:70px;
         padding-top:10px;
@@ -112,13 +154,10 @@ and open the template in the editor.
                 margin-bottom: 0;
                 line-height: 95%;
             }
-        
         .nav-shopping-cart{
             background:url('../../../img/cart.png') no-repeat center 5px;
             display:block;
             padding-top:35px;
-            
-
         }
         .nav-my-list{
             padding-top:35px;
@@ -126,7 +165,8 @@ and open the template in the editor.
             background:url('../../../img/my-list.png') no-repeat center 8px;
         }
     }
-}
+
+
 
 @media (min-width: $small-screen) {
     .nav-main {
@@ -153,4 +193,8 @@ and open the template in the editor.
 
         }
     }
+}
+
+@media (min-width: 468px) {
+    
 }

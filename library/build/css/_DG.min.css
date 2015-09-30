@@ -3262,6 +3262,35 @@ and open the template in the editor.
       .nav-top ul li a {
         color: #999999; }
 
+.mobile-nav {
+  width: 100%; }
+  .mobile-nav .logo {
+    padding-top: 10px;
+    width: 160px;
+    float: left; }
+    .mobile-nav .logo a {
+      width: 100%; }
+  .mobile-nav .cart-menus {
+    width: 200px;
+    float: right;
+    margin-top: -10px; }
+    .mobile-nav .cart-menus a {
+      display: inline-block;
+      width: 60px;
+      padding-top: 10px; }
+  .mobile-nav .mobile-menu-button {
+    width: 70px;
+    background-color: #000;
+    display: inline-block;
+    float: right; }
+    .mobile-nav .mobile-menu-button .navbar-toggle {
+      display: block; }
+      .mobile-nav .mobile-menu-button .navbar-toggle .icon-bar {
+        background-color: #ffdd00;
+        width: 18px;
+        border-radius: 1px;
+        height: 3px; }
+
 .nav-main {
   font-family: "Conv_FranklinGothic-DemiXCmpr", "arial";
   padding: 0;
@@ -3321,26 +3350,28 @@ and open the template in the editor.
     background-color: #ffdd00; }
   .nav-main .nav-placeholder-right {
     width: 63%; }
-  .nav-main .fixed-height {
-    display: inline-block;
-    height: 70px;
-    padding-top: 10px;
-    padding-left: 0; }
-    .nav-main .fixed-height .text-row {
-      color: #000000;
-      display: block;
-      clear: both;
-      margin-top: 0;
-      margin-bottom: 0;
-      line-height: 95%; }
-    .nav-main .fixed-height .nav-shopping-cart {
-      background: url("../../../img/cart.png") no-repeat center 5px;
-      display: block;
-      padding-top: 35px; }
-    .nav-main .fixed-height .nav-my-list {
-      padding-top: 35px;
-      display: block;
-      background: url("../../../img/my-list.png") no-repeat center 8px; }
+
+.fixed-height {
+  font-family: "Conv_FranklinGothic-DemiXCmpr", "arial";
+  display: inline-block;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 0; }
+  .fixed-height .text-row {
+    color: #000000;
+    display: block;
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 95%; }
+  .fixed-height .nav-shopping-cart {
+    background: url("../../../img/cart.png") no-repeat center 5px;
+    display: block;
+    padding-top: 35px; }
+  .fixed-height .nav-my-list {
+    padding-top: 35px;
+    display: block;
+    background: url("../../../img/my-list.png") no-repeat center 8px; }
 
 @media (min-width: 768px) {
   .nav-main {
