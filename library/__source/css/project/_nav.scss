@@ -166,7 +166,13 @@ and open the template in the editor.
         }
     }
 
-
+@media (max-width: 380px) {
+    .mobile-nav{
+        .cart-menus{
+            width:100px;
+        }                                                       
+    }                                                   
+}
 
 @media (min-width: $small-screen) {
     .nav-main {
@@ -195,6 +201,4 @@ and open the template in the editor.
     }
 }
 
-@media (min-width: 468px) {
-    
-}
+

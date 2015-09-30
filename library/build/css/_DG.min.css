@@ -3373,6 +3373,9 @@ and open the template in the editor.
     display: block;
     background: url("../../../img/my-list.png") no-repeat center 8px; }
 
+@media (max-width: 380px) {
+  .mobile-nav .cart-menus {
+    width: 100px; } }
 @media (min-width: 768px) {
   .nav-main {
     padding-right: 750px; }
