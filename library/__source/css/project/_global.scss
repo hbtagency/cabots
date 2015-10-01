@@ -16,7 +16,6 @@ $darker-transparent-bg:rgba(0, 0, 0, 0.6);
 
 /* Break Points */
 
-
 $screen-xxxs-min: 320px;
 $screen-xxxxs-max: ($screen-xxxs-min - 1);
 $screen-xxs-min: 380px;
@@ -29,14 +28,6 @@ $screen-md-min: 992px;
 $screen-sm-max: ($screen-md-min - 1);
 $screen-lg-min: 1200px;
 $screen-md-max: ($screen-lg-min - 1);
-
-$xxxsmall-screen:320px;
-$xxsmall-screen:384px;
-$xsmall-screen:520px;
-$small-screen: 768px;
-$medium-screen: 992px;
-$large-screen: 1200px;
-
 
 /* This section needs to be finished */
 $font-FKG-DC: "Conv_FranklinGothic-DemiXCmpr";//nav small heading and list and button
