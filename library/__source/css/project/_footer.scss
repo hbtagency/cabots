@@ -1,0 +1,94 @@
+.greyFooter{
+  height: 90px;
+  width:  100%;
+  background-color: #e6e6e0;
+  font-family: $font-FKG-DC;
+  
+}
+
+.footer{
+  width: 100%;
+  height: 140px;
+  background-color: $yellow;
+}
+
+.footer_logo{
+  display: inline-block;
+  padding-top: 35px;
+  width: 210px;
+}
+
+.footer_link{
+  display: inline-block;
+  font-family: $font-FKG-MC;
+  padding-top: 35px;
+  margin-left: 0px;
+}
+
+.footer_link a {
+    color: black;
+    font-size: 14px;
+}
+
+.footer_link_one{
+    display: inline-block;
+}
+.footer_link_two{
+    display: inline-block;
+
+}
+.footer_link_three{
+    display: inline-block;
+
+}
+.footer_link_four{
+    display: inline-block;
+
+}
+
+.footer_copyright{
+  
+}
+
+.footer_subscribe_title{
+    font-family: $font-FKG-DC;
+    display: inline-block;
+    width: 165px;
+    font-size: 19px;
+    padding-left: 20px;
+    line-height: 81%;
+}
+
+.footer_subscribe{
+  display: inline-block;
+}
+
+.footer_subscribe_form{
+  display: inline-block;
+}
+
+.footer_subscribe_form_textform{
+  font-family: $font-FKG-MC;
+  border-color: white;
+  border-style: none;
+  height: 30px;
+  vertical-align: top;
+  margin-top: -13px;
+  width: 157px;
+  padding-left: 15px;
+}
+
+.footer_subscribe_form_button{
+  font-family: $font-FKG-MC;
+  border-color: white;
+  border-style: none;
+  height: 30px;
+  vertical-align: top;
+  margin-top: -13px;
+  background: black;
+  color: white;
+  text-align: center;
+  width: 43px;
+  margin-left: 2px;
+}
+
